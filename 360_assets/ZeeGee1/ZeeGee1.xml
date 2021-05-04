@@ -10,31 +10,31 @@
     <hotspot id="zaxis" renderMode="0" indicatorImage="circ-cross-large-red.svg" wrap="false" margin="0,50,0,0" align="center,right">
       <spotinfo txt="&lt;b&gt;Main Drop Rate Micro Feed&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Tandem Z axis adjustment enables accurate setting of the main tilt/roll drop rate and can be easily modified on the fly. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/ZAxis.png&quot; alt=&quot;Handle&quot; width=&quot;125&quot; height=&quot;100&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:200px;padding:37px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="tiltfluiddragandbrake" renderMode="1" indicatorImage="circ-cross-large-red.svg" margin="100,0,0,0" align="top,center">
+    <hotspot id="tiltfluiddragandbrake" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="100,0,0,0" align="top,center">
       <spotinfo txt="&lt;b&gt;Tilt Axis Fluid Drag and Brake&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;The tilt axis incorporates a variable fluid drag adjustment that smooths out any oscillation that is more likely to occur with shorter camera builds. Fully tightening down serves as a tilt brake. &#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/Tilt.png&quot; alt=&quot;Handle&quot; width=&quot;125&quot; height=&quot;100&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="slidecamerastage" renderMode="1" indicatorImage="circ-cross-large-red.svg" margin="50,0,0,0" align="top,center">
+    <hotspot id="slidecamerastage" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="50,0,0,0" align="top,center">
       <spotinfo txt="&lt;b&gt;Slide Camera Stage&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Mounts standard Steadicam plates with fore/aft balancing adjustment. Micro feed adjustment plate for fine-tuning also available.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/CameraSlide.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="rollaxisdrop" renderMode="1" indicatorImage="circ-cross-large-red.svg" margin="100,0,0,0" align="top,center">
+    <hotspot id="rollaxisdrop" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="100,0,0,0" align="top,center">
       <spotinfo txt="&lt;b&gt;Independent Roll Drop Rate&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Adjusts the roll axis drop rate independent of the tilt axis.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/RollAxis.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="panbrake" renderMode="1" indicatorImage="circ-cross-large-red.svg" margin="0,0,0,0" align="center,center">
+    <hotspot id="panbrake" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="0,0,0,0" align="center,center">
       <spotinfo txt="&lt;b&gt;Pan Brake&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Locks off the pan axis relative to the post socket for lock off shots on the balancing bar or operation off any 5/8” baby pin. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/PanBrake.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="orientableandinterchangablehandles" renderMode="1" indicatorImage="circ-cross-large-red.svg" margin="100,0,0,0" align="top,center">
+    <hotspot id="orientableandinterchangablehandles" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="100,0,0,0" align="top,center">
       <spotinfo txt="&lt;b&gt;Interchangeable Handles&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;ZeeGee comes with both a low profile knobs as well as handles that can quickly be swapped out.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/Knob.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="inversionmodelock" renderMode="1" indicatorImage="circ-cross-large-red.svg" margin="100,0,0,0" align="top,center">
+    <hotspot id="inversionmodelock" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="100,0,0,0" align="top,center">
       <spotinfo txt="&lt;b&gt;Inverted Operation Lock for Docking&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Locks the cradle / pan base assembly in the upward facing inverted position when unit is docked in the handle yolks for underslung connection. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/Inversion.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
     </hotspot>
-    <hotspot id="candlerolllock" renderMode="1" indicatorImage="circ-cross-large-red.svg" margin="150,0,0,0" align="top,center">
+    <hotspot id="candlerolllock" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="150,0,0,0" align="top,center">
       <spotinfo txt="&lt;b&gt;Cradle Roll Lock&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Locks the role axis in the center position for when mounting on the balancing bar or operation off any 5/8” baby pin. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/RollLock.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;background-color:rgba(255,255,255,1);" />
     </hotspot>
   </hotspots>
   <images rows="1">
     <image src="images/0_0.png">
-      <hotspot source="zaxis" offsetX="538" offsetY="227" />
+      <hotspot source="zaxis" offsetX="546" offsetY="225" />
       <hotspot source="tiltfluiddragandbrake" offsetX="472" offsetY="261" />
       <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
       <hotspot source="rollaxisdrop" offsetX="475" offsetY="377" />
