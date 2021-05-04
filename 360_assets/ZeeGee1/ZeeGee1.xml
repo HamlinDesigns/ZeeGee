@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <settings>
+    <preloader image="images/0_0.png" />
+    <userInterface showZoomButtons="true" showToolTips="true" showHotspotsButton="true" showFullScreenButton="true" showTogglePlayButton="true" showArrows="true" toolbarAlign="center" toolbarBackColor="transparent" toolbarHoverColor="#808285" toolbarForeColor="#A7A9AE" toolbarBackAlpha="0" toolbarAlpha="1" showProgressNumbers="true" showFullScreenToolbar="false" fullScreenBackColor="transparent" toolbarPosition="0" customCursorClass="default_cursor" viewerHint="" toolbarAutohide="false" showToolbarOnLoadStart="false" skin="retina" />
+    <control dragSpeed="0.13" doubleClickZooms="true" disableMouseControl="false" showHighresOnFullScreen="true" mouseHoverDrag="false" hideHotspotsOnLoad="false" hideHotspotsOnZoom="true" rowSensitivity="15" dragSensitivity="10" inBrowserFullScreen="false" doubleClickFullscreen="false" zoomSteps="1" zoomSpeed="300" singleClickZooms="false" pauseOnPreload="false" resumePreloadOnHover="false" mouseWheelDrag="false" mouseWheelDragZoomOnly="false" allowRotateInputInZoom="false" allowPanX="true" allowPanY="true" dragAcceleration="1" />
+    <rotation firstImage="0" rotate="false" rotatePeriod="7" bounce="false" rotateDirection="-1" forceDirection="false" inertiaRelToDragSpeed="true" inertiaTimeToStop="700" inertiaMaxInterval="120" useInertia="true" flipHorizontalInput="false" flipVerticalInput="false" bounceRows="true" rowsOnSingleIndex="false" flipAxis="false" />
+  </settings>
+  <hotspots>
+    <hotspot id="zaxis" renderMode="0" indicatorImage="circ-cross-large-red.svg" wrap="false" margin="0,50,0,0" align="center,right">
+      <spotinfo txt="&lt;b&gt;Main Drop Rate Micro Feed&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Tandem Z axis adjustment enables accurate setting of the main tilt/roll drop rate and can be easily modified on the fly. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/ZAxis.png&quot; alt=&quot;Handle&quot; width=&quot;125&quot; height=&quot;100&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:200px;padding:37px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="tiltfluiddragandbrake" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="100,0,0,0" align="top,center">
+      <spotinfo txt="&lt;b&gt;Tilt Axis Fluid Drag and Brake&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;The tilt axis incorporates a variable fluid drag adjustment that smooths out any oscillation that is more likely to occur with shorter camera builds. Fully tightening down serves as a tilt brake. &#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/Tilt.png&quot; alt=&quot;Handle&quot; width=&quot;125&quot; height=&quot;100&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="slidecamerastage" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="50,0,0,0" align="top,center">
+      <spotinfo txt="&lt;b&gt;Slide Camera Stage&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Mounts standard Steadicam plates with fore/aft balancing adjustment. Micro feed adjustment plate for fine-tuning also available.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/CameraSlide.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="rollaxisdrop" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="100,0,0,0" align="top,center">
+      <spotinfo txt="&lt;b&gt;Independent Roll Drop Rate&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Adjusts the roll axis drop rate independent of the tilt axis.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/RollAxis.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="panbrake" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="0,0,0,0" align="center,center">
+      <spotinfo txt="&lt;b&gt;Pan Brake&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Locks off the pan axis relative to the post socket for lock off shots on the balancing bar or operation off any 5/8” baby pin. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/PanBrake.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="orientableandinterchangablehandles" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="100,0,0,0" align="top,center">
+      <spotinfo txt="&lt;b&gt;Interchangeable Handles&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;ZeeGee comes with both a low profile knobs as well as handles that can quickly be swapped out.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/Knob.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="inversionmodelock" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="100,0,0,0" align="top,center">
+      <spotinfo txt="&lt;b&gt;Inverted Operation Lock for Docking&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Locks the cradle / pan base assembly in the upward facing inverted position when unit is docked in the handle yolks for underslung connection. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/Inversion.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;border:1px solid #EEEEEE;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+    <hotspot id="candlerolllock" renderMode="1" indicatorImage="circ-cross-large-red.svg" disabled="true" margin="150,0,0,0" align="top,center">
+      <spotinfo txt="&lt;b&gt;Cradle Roll Lock&lt;/b&gt;&#xD;&#xA;&#xD;&#xA;Locks the role axis in the center position for when mounting on the balancing bar or operation off any 5/8” baby pin. &#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;img src=&quot;https://hamlindesigns.github.io/ZeeGee/RollLock.png&quot; alt=&quot;Handle&quot; width=&quot;250&quot; height=&quot;200&quot;&gt;" css="font-family:Arial;color:#333333;text-align:center;width:300px;padding:25px;background-color:rgba(255,255,255,1);" />
+    </hotspot>
+  </hotspots>
+  <images rows="1">
+    <image src="images/0_0.png">
+      <hotspot source="zaxis" offsetX="546" offsetY="225" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="472" offsetY="261" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="475" offsetY="377" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1258" offsetY="348" />
+      <hotspot source="inversionmodelock" offsetX="1151" offsetY="246" />
+      <hotspot source="candlerolllock" offsetX="815" offsetY="850" />
+    </image>
+    <image src="images/0_1.png">
+      <hotspot source="zaxis" offsetX="552" offsetY="206" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="488" offsetY="235" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="472" offsetY="349" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1257" offsetY="386" />
+      <hotspot source="inversionmodelock" offsetX="1159" offsetY="276" />
+      <hotspot source="candlerolllock" offsetX="764" offsetY="841" />
+    </image>
+    <image src="images/0_2.png">
+      <hotspot source="zaxis" offsetX="571" offsetY="187" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="518" offsetY="212" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="483" offsetY="324" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1230" offsetY="410" />
+      <hotspot source="inversionmodelock" offsetX="1152" offsetY="303" />
+      <hotspot source="candlerolllock" offsetX="730" offsetY="839" />
+    </image>
+    <image src="images/0_3.png">
+      <hotspot source="zaxis" offsetX="603" offsetY="175" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="557" offsetY="196" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="505" offsetY="295" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1174" offsetY="445" />
+      <hotspot source="inversionmodelock" offsetX="1118" offsetY="317" />
+      <hotspot source="candlerolllock" offsetX="690" offsetY="827" />
+    </image>
+    <image src="images/0_4.png">
+      <hotspot source="zaxis" offsetX="646" offsetY="162" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="605" offsetY="177" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="539" offsetY="273" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1120" offsetY="476" />
+      <hotspot source="inversionmodelock" offsetX="1072" offsetY="345" />
+      <hotspot source="candlerolllock" offsetX="665" offsetY="812" />
+    </image>
+    <image src="images/0_5.png">
+      <hotspot source="zaxis" offsetX="687" offsetY="149" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="651" offsetY="167" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="584" offsetY="257" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1042" offsetY="492" />
+      <hotspot source="inversionmodelock" offsetX="998" offsetY="357" />
+      <hotspot source="candlerolllock" offsetX="637" offsetY="793" />
+    </image>
+    <image src="images/0_6.png">
+      <hotspot source="zaxis" offsetX="739" offsetY="145" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="707" offsetY="162" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="634" offsetY="242" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="944" offsetY="523" />
+      <hotspot source="inversionmodelock" offsetX="935" offsetY="373" />
+      <hotspot source="candlerolllock" offsetX="622" offsetY="772" />
+    </image>
+    <image src="images/0_7.png">
+      <hotspot source="zaxis" offsetX="785" offsetY="141" />
+      <hotspot source="slidecamerastage" offsetX="805" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="692" offsetY="228" />
+      <hotspot source="panbrake" offsetX="988" offsetY="764" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="836" offsetY="532" />
+      <hotspot source="inversionmodelock" offsetX="846" offsetY="382" />
+      <hotspot source="candlerolllock" offsetX="631" offsetY="750" />
+    </image>
+    <image src="images/0_8.png">
+      <hotspot source="zaxis" offsetX="836" offsetY="143" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="752" offsetY="220" />
+      <hotspot source="panbrake" offsetX="986" offsetY="785" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="787" offsetY="529" />
+      <hotspot source="inversionmodelock" offsetX="763" offsetY="382" />
+      <hotspot source="candlerolllock" offsetX="627" offsetY="726" />
+    </image>
+    <image src="images/0_9.png">
+      <hotspot source="zaxis" offsetX="893" offsetY="145" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="815" offsetY="221" />
+      <hotspot source="panbrake" offsetX="980" offsetY="806" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="672" offsetY="524" />
+      <hotspot source="inversionmodelock" offsetX="690" offsetY="377" />
+    </image>
+    <image src="images/0_10.png">
+      <hotspot source="zaxis" offsetX="943" offsetY="151" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="974" offsetY="168" />
+      <hotspot source="slidecamerastage" offsetX="814" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="876" offsetY="224" />
+      <hotspot source="panbrake" offsetX="970" offsetY="827" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="572" offsetY="507" />
+      <hotspot source="inversionmodelock" offsetX="616" offsetY="358" />
+    </image>
+    <image src="images/0_11.png">
+      <hotspot source="zaxis" offsetX="982" offsetY="165" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1024" offsetY="180" />
+      <hotspot source="slidecamerastage" offsetX="814" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="1086" offsetY="270" />
+      <hotspot source="panbrake" offsetX="943" offsetY="848" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="484" offsetY="485" />
+      <hotspot source="inversionmodelock" offsetX="566" offsetY="342" />
+    </image>
+    <image src="images/0_12.png">
+      <hotspot source="zaxis" offsetX="1028" offsetY="177" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1074" offsetY="197" />
+      <hotspot source="slidecamerastage" offsetX="814" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="1118" offsetY="296" />
+      <hotspot source="panbrake" offsetX="924" offsetY="858" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="413" offsetY="445" />
+      <hotspot source="inversionmodelock" offsetX="512" offsetY="320" />
+    </image>
+    <image src="images/0_13.png">
+      <hotspot source="zaxis" offsetX="1055" offsetY="190" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1109" offsetY="215" />
+      <hotspot source="slidecamerastage" offsetX="814" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="1142" offsetY="323" />
+      <hotspot source="panbrake" offsetX="890" offsetY="874" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="383" offsetY="414" />
+      <hotspot source="inversionmodelock" offsetX="486" offsetY="296" />
+    </image>
+    <image src="images/0_14.png">
+      <hotspot source="zaxis" offsetX="1076" offsetY="208" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1140" offsetY="239" />
+      <hotspot source="slidecamerastage" offsetX="814" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="1154" offsetY="347" />
+      <hotspot source="panbrake" offsetX="849" offsetY="882" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="369" offsetY="376" />
+      <hotspot source="inversionmodelock" offsetX="468" offsetY="272" />
+    </image>
+    <image src="images/0_15.png">
+      <hotspot source="zaxis" offsetX="1086" offsetY="223" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1154" offsetY="261" />
+      <hotspot source="slidecamerastage" offsetX="814" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="1143" offsetY="374" />
+      <hotspot source="panbrake" offsetX="817" offsetY="887" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="378" offsetY="352" />
+      <hotspot source="inversionmodelock" offsetX="470" offsetY="249" />
+    </image>
+    <image src="images/0_16.png">
+      <hotspot source="zaxis" offsetX="1092" offsetY="246" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1159" offsetY="287" />
+      <hotspot source="slidecamerastage" offsetX="814" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="1124" offsetY="402" />
+      <hotspot source="panbrake" offsetX="767" offsetY="884" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1254" offsetY="390" />
+      <hotspot source="inversionmodelock" offsetX="488" offsetY="220" />
+    </image>
+    <image src="images/0_17.png">
+      <hotspot source="zaxis" offsetX="1078" offsetY="267" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1142" offsetY="312" />
+      <hotspot source="slidecamerastage" offsetX="814" offsetY="592" />
+      <hotspot source="rollaxisdrop" offsetX="1100" offsetY="434" />
+      <hotspot source="panbrake" offsetX="738" offsetY="878" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1225" offsetY="414" />
+      <hotspot source="inversionmodelock" offsetX="515" offsetY="203" />
+    </image>
+    <image src="images/0_18.png">
+      <hotspot source="zaxis" offsetX="1052" offsetY="285" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1113" offsetY="336" />
+      <hotspot source="slidecamerastage" offsetX="812" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="1044" offsetY="450" />
+      <hotspot source="panbrake" offsetX="705" offsetY="864" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1191" offsetY="440" />
+      <hotspot source="inversionmodelock" offsetX="551" offsetY="180" />
+    </image>
+    <image src="images/0_19.png">
+      <hotspot source="zaxis" offsetX="1012" offsetY="304" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1068" offsetY="359" />
+      <hotspot source="slidecamerastage" offsetX="812" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="976" offsetY="472" />
+      <hotspot source="panbrake" offsetX="678" offsetY="850" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1123" offsetY="471" />
+      <hotspot source="inversionmodelock" offsetX="596" offsetY="175" />
+    </image>
+    <image src="images/0_20.png">
+      <hotspot source="zaxis" offsetX="965" offsetY="313" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="1006" offsetY="380" />
+      <hotspot source="slidecamerastage" offsetX="812" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="897" offsetY="484" />
+      <hotspot source="panbrake" offsetX="654" offsetY="830" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1044" offsetY="495" />
+      <hotspot source="inversionmodelock" offsetX="650" offsetY="158" />
+    </image>
+    <image src="images/0_21.png">
+      <hotspot source="zaxis" offsetX="908" offsetY="325" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="931" offsetY="392" />
+      <hotspot source="slidecamerastage" offsetX="812" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="816" offsetY="485" />
+      <hotspot source="panbrake" offsetX="647" offsetY="813" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="951" offsetY="520" />
+      <hotspot source="inversionmodelock" offsetX="704" offsetY="149" />
+    </image>
+    <image src="images/0_22.png">
+      <hotspot source="zaxis" offsetX="843" offsetY="330" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="852" offsetY="400" />
+      <hotspot source="slidecamerastage" offsetX="812" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="729" offsetY="481" />
+      <hotspot source="panbrake" offsetX="636" offsetY="791" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="839" offsetY="533" />
+      <hotspot source="candlerolllock" offsetX="1004" offsetY="731" />
+    </image>
+    <image src="images/0_23.png">
+      <hotspot source="zaxis" offsetX="782" offsetY="329" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="773" offsetY="399" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="893" offsetY="495" />
+      <hotspot source="panbrake" offsetX="640" offsetY="773" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="787" offsetY="530" />
+      <hotspot source="candlerolllock" offsetX="999" offsetY="749" />
+    </image>
+    <image src="images/0_24.png">
+      <hotspot source="zaxis" offsetX="720" offsetY="325" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="688" offsetY="391" />
+      <hotspot source="slidecamerastage" offsetX="816" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="791" offsetY="493" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="666" offsetY="528" />
+      <hotspot source="inversionmodelock" offsetX="927" offsetY="153" />
+      <hotspot source="candlerolllock" offsetX="996" offsetY="770" />
+    </image>
+    <image src="images/0_25.png">
+      <hotspot source="zaxis" offsetX="663" offsetY="315" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="618" offsetY="379" />
+      <hotspot source="slidecamerastage" offsetX="816" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="715" offsetY="489" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="573" offsetY="506" />
+      <hotspot source="inversionmodelock" offsetX="973" offsetY="164" />
+      <hotspot source="candlerolllock" offsetX="990" offsetY="788" />
+    </image>
+    <image src="images/0_26.png">
+      <hotspot source="zaxis" offsetX="615" offsetY="301" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="559" offsetY="362" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="646" offsetY="474" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="483" offsetY="485" />
+      <hotspot source="inversionmodelock" offsetX="1029" offsetY="178" />
+      <hotspot source="candlerolllock" offsetX="962" offsetY="806" />
+    </image>
+    <image src="images/0_27.png">
+      <hotspot source="zaxis" offsetX="578" offsetY="285" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="513" offsetY="337" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="582" offsetY="452" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="411" offsetY="445" />
+      <hotspot source="inversionmodelock" offsetX="1078" offsetY="182" />
+      <hotspot source="candlerolllock" offsetX="934" offsetY="824" />
+    </image>
+    <image src="images/0_28.png">
+      <hotspot source="zaxis" offsetX="552" offsetY="270" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="484" offsetY="312" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="527" offsetY="427" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1203" offsetY="290" />
+      <hotspot source="inversionmodelock" offsetX="1115" offsetY="200" />
+      <hotspot source="candlerolllock" offsetX="898" offsetY="836" />
+    </image>
+    <image src="images/0_29.png">
+      <hotspot source="zaxis" offsetX="541" offsetY="245" />
+      <hotspot source="tiltfluiddragandbrake" offsetX="470" offsetY="286" />
+      <hotspot source="slidecamerastage" offsetX="815" offsetY="591" />
+      <hotspot source="rollaxisdrop" offsetX="487" offsetY="404" />
+      <hotspot source="orientableandinterchangablehandles" offsetX="1233" offsetY="317" />
+      <hotspot source="inversionmodelock" offsetX="1137" offsetY="221" />
+      <hotspot source="candlerolllock" offsetX="852" offsetY="844" />
+    </image>
+  </images>
+</config>
