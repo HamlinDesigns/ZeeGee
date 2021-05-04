@@ -5,11 +5,35 @@
 <title>ZeeGee1</title>
 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
 
+<!-- Use this meta tag on your mobile page -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
 <!-- Use these three includes on your pages under <head> section -->
 
-<link type="text/css" rel="stylesheet" href="imagerotator/html/css/basic.css"/>
+<link type="text/css" rel="stylesheet" href="imagerotator/html/css/retina.css"/>
 <script type="text/javascript" src="imagerotator/html/js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="imagerotator/html/js/imagerotator.js"></script>
+
+
+<style type= "text/css">
+
+html, body
+{
+    padding: 0;
+    margin: 0;
+}
+
+/*-- Use #content CSS to customize size, position, border, etc of your 360 view --*/
+
+#content
+{
+    width: 100%;
+    height: 1280px;
+    /* border: 1px dotted #cecfd2; */
+}
+
+</style>
 
 
 <!-- Copy this script block and paste under your page <head> section or somewhere inside your page <body> -->
@@ -21,11 +45,11 @@ jQuery(document).ready(function(){
     jQuery('#wr360PlayerId').rotator({
         licenseFileURL: 'license.lic',
 		configFileURL: '360_assets/ZeeGee1/ZeeGee1.xml',
-		graphicsPath: 'imagerotator/html/img/basic',
+		graphicsPath: 'imagerotator/html/img/retina',
         alt: '360 degree view - ZeeGee1',
-        inBrowserFullScreen: false,
+        responsiveBaseWidth: 1600,
+        responsiveMinHeight: 0,
         googleEventTracking: false,
-        fullScreenOnClick: true
     });
 
 });
@@ -41,11 +65,18 @@ jQuery(document).ready(function(){
 
 <body>
 
-    
+    <div class="responsive-wrapper-demo-do-not-copy" style="max-width:1600px;">    
 
-    <!-- Just need to match the id of your button, hyperlink, thumbnail, etc with the one referenced in the script above (ie wr360PlayerId). -->
+        <!-- Just copy / paste the content div below onto your page and define content CSS styles as needed -->
 
-    <a href="#" id="wr360PlayerId">Click HERE to open in Full-Screen</a>
+        <div id="content">
+
+            <div id="wr360PlayerId" class="wr360_player" style="background-color:transparent;">
+            </div>
+
+        </div>
+
+    </div>    
 
 
 </body>
